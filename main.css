@@ -1,3 +1,32 @@
 body {
 	background-color: orange;
 }
+
+#playground {
+	border: 5px dotted black;
+	color: purple;
+}
+
+.child {
+	background-color: slategray;
+}
+
+li {
+	border-bottom: 3px solid tomato;
+}
+
+#playground > h1 {
+	color: blue;
+}
+
+.child ~ p {
+	background-color: green;
+}
+
+#playground {
+	display: none;
+}
+
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+}
